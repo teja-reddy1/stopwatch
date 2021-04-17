@@ -2,11 +2,10 @@
     text-align: center;
 }
 
-.buttons>div {
-    background-color: cyan;
-    width: max-content;
+.buttons>button {
+    /* width: max-content; */
     margin-top: 100px;
-    padding: 5px;
+    /* padding: 5px; */
     display: inline-block;
     cursor: pointer;
 }
