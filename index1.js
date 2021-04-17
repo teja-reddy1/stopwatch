@@ -10,7 +10,7 @@ var sec = 0;
 var min = 0;
 var hrs = 0;
 var time = 0;
-
+var P = 0;
 timer = null;
 
 // box.innerHTML = time;
@@ -39,10 +39,14 @@ function handle() {
 }
 
 start.addEventListener("click", function() {
-    timer = setInterval(handle, 1000);
+    if (P === 0) {
+        timer = setInterval(handle, 1000);
+        P = 1;
+    }
 });
 
 stop.addEventListener("click", function() {
+    P = 0;
     clearInterval(timer);
 });
 
