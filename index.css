@@ -1,0 +1,21 @@
+.Header {
+    text-align: center;
+}
+
+.buttons>div {
+    background-color: cyan;
+    width: max-content;
+    margin-top: 100px;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#start {
+    margin-left: 46%;
+}
+
+.lap {
+    background-color: yellow;
+    text-align: center;
+}
